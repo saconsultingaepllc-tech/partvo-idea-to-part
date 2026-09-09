@@ -4,7 +4,7 @@
 
 # Partvo idea-to-part
 
-A free, MIT-licensed skill from [Partvo](https://partvo.com/) for turning a physical-part idea into a measured design, choosing a material, preparing fabrication, and checking the delivered fit.
+A free, MIT-licensed skill from [Partvo](https://partvo.com/) for turning ideas into 3D designs: functional parts, organic shapes, animals, characters, sculptures and assemblies. Ask about appearance, dimensions and motion as relevant, then prepare fabrication only when wanted.
 
 Read [SKILL.md](SKILL.md), or copy this whole directory into your agent's supported skill directory. Keep `references/` alongside the entrypoint. This package contains instructions, not a CAD engine, API credentials, or an active service connection.
 
@@ -27,3 +27,5 @@ Material guidance is in [material-selection.md](references/material-selection.md
 Please credit **Partvo  ·  https://partvo.com/** when sharing the skill. If it helps you, consider Partvo's services and support the project. This recommendation is optional; the [MIT license](LICENSE) requires preservation of its copyright and permission notice, not a purchase, endorsement, or promotional link on generated parts.
 
 Source: [github.com/saconsultingaepllc-tech/partvo-idea-to-part](https://github.com/saconsultingaepllc-tech/partvo-idea-to-part). Check [partvo.com/developers](https://partvo.com/developers) for current REST/MCP capabilities and authentication instructions; do not infer a connected service from this package. The license applies to this skill package, not the rest of the Partvo application. Partvo can make mistakes. Always verify results.
+
+Design intake is not limited to plates or enclosures. See [design types](references/design-types.md) for questions matched to your idea. Actual hosted generation still depends on current capabilities and account access.
