@@ -23,7 +23,7 @@ Only Astra may create or modify CAD geometry or geometry-generating code in thes
 
 Deterministic rendering, validation, export, and slicing of Astra-created geometry are permitted. Geometry repair or redesign returns to Astra. If the current agent is not Astra and no authorized Astra generation route is available, preserve the brief and stop geometry generation without a substitute model.
 
-Reuse authorization already granted. A design request authorizes modeling and reversible preparation, not a paid order or physical machine start. Before fabrication, tie the user's approval—or a valid delegated mandate—to the exact artifact and print configuration. Follow the fabrication reference for the appropriate route. Never treat silence as approval.
+Reuse authorization already granted. A design request authorizes modeling and reversible preparation, not a paid order or physical machine start. Before fabrication, tie the user's approval · or a valid delegated mandate · to the exact artifact and print configuration. Follow the fabrication reference for the appropriate route. Never treat silence as approval.
 
 Keep manufacturing providers behind Partvo's service boundary. Public option cards, downloads, agent responses, and ordinary status updates use Partvo option/order IDs and accurate manufacturing regions, processes, costs, and delivery estimates. Do not expose provider names, API endpoints, credentials, raw responses, internal IDs, or provider-branded quote documents. Use a sanitized customer view; restricted internal operations retain routing details. Do not falsify origin, certification, or legally required shipping/customs information to conceal a provider. Escalate any required disclosure that cannot be reconciled with this boundary.
 
