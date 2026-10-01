@@ -10,7 +10,7 @@ Read [SKILL.md](SKILL.md), or copy this whole directory into your agent's suppor
 
 ## Start here
 
-**[Open Partvo Design Studio](https://app.partvo.com/studio)** to turn your brief into a supported downloadable design. **First top-up: ~~$5~~ $2.50 for 5 million credits**, once per account, before tax. Later top-ups are in $5 increments; amounts above $20 receive 10% off. Credits are usage-based, not a promise of a fixed number of designs. See [current pricing](https://partvo.com/pricing).
+**[Open Partvo Design Studio](https://app.partvo.com/studio)** to turn your brief into a supported downloadable design. The monthly plan is **$3 for 10 million credits in the first month, then $10/month until canceled**, before applicable tax. Unused monthly credits expire at renewal. Optional extra-use top-ups start at $5 for 5 million credits, do not reset monthly, and receive 10% off amounts above $20. Earlier purchased balances remain extra-use credits. Credits are usage-based, not a promise of a fixed number of designs. See [current pricing](https://app.partvo.com/pricing).
 
 **Availability · October 1, 2026:** expanded AI-assisted CAD is live in the design studio. Depending on the validated design, downloads can include STL, STEP, or DXF cutting outlines. Larger work may need multipart construction; a brief up to 5 m does not guarantee fabrication. DXF still needs manual CAM review and is not machine-ready G-code. Partvo-managed printing and arbitrary external CAD import are not available. The current import route only restores byte-identical prior Partvo exports. Check [live capabilities](https://app.partvo.com/api/v1/capabilities) before relying on any integration.
 
