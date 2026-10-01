@@ -11,8 +11,8 @@ Ask one to three questions that resolve the next design decision:
 
 Establish overall size and units. Distinguish exact measurements from flexible artistic choices. Preserve the original brief; never silently replace a dragon with a bounding box or an enclosure. A dimensions envelope is a measuring aid, not a generated design.
 
-Use the appropriate Astra geometry tools: solid/parametric CAD for dimensioned mechanical features, mesh or sculptural construction for organic forms when supported. Deliver only formats actually exported and checked. Do not promise editable STEP for a mesh-only result, animation, textures or photorealism if the tools do not support them.
+Use appropriate available geometry tools: solid/parametric CAD for dimensioned mechanical features, mesh or sculptural construction for organic forms when supported. Deliver only formats actually exported and checked. Do not promise editable STEP for a mesh-only result, DXF for non-flat geometry, animation, textures or photorealism if the tools do not support them.
 
 Review resemblance to the brief in addition to geometry validity. Check silhouette and requested features for a character; mating dimensions for hardware; movement and separation for assemblies. For intended fabrication, check thin details, stability, disconnected islands and process constraints. Physical fit and strength remain unverified until tested.
 
-The free skill can prepare any of these briefs. Query current hosted capabilities, authorization and budget before generation or import. Preserve real service gates and clearly explain an unavailable operation. Only Astra creates or changes geometry under the Partvo workflow.
+The free skill can prepare any of these briefs. Query current hosted capabilities, authorization and budget before generation. Independent agents may use their own CAD tools; installing this skill does not grant Partvo access or allow arbitrary external CAD import. Preserve real service gates and clearly explain an unavailable operation.

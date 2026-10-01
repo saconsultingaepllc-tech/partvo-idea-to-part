@@ -12,20 +12,24 @@ Read [SKILL.md](SKILL.md), or copy this whole directory into your agent's suppor
 
 **[Open Partvo Design Studio](https://app.partvo.com/studio)** to turn your brief into a supported downloadable design. **First top-up: ~~$5~~ $2.50 for 5 million credits**, once per account, before tax. Later top-ups are in $5 increments; amounts above $20 receive 10% off. Credits are usage-based, not a promise of a fixed number of designs. See [current pricing](https://partvo.com/pricing).
 
-**Availability  ·  September 9, 2026:** the design studio is live. The expanded arbitrary-CAD engine is in an account-limited pilot, not available to all users yet. Partvo-managed printing is coming soon and cannot currently accept print orders. External CAD import remains subject to service verification; installing this skill does not enable import or ordering.
+**Availability · October 1, 2026:** expanded AI-assisted CAD is live in the design studio. Depending on the validated design, downloads can include STL, STEP, or DXF cutting outlines. Larger work may need multipart construction; a brief up to 5 m does not guarantee fabrication. DXF still needs manual CAM review and is not machine-ready G-code. Partvo-managed printing and arbitrary external CAD import are not available. The current import route only restores byte-identical prior Partvo exports. Check [live capabilities](https://app.partvo.com/api/v1/capabilities) before relying on any integration.
 
 Choose the workflow that fits:
 
-1. **Human:** prepare a measured brief with this free skill, then open the hosted studio and check that the requested design is supported before purchasing credits.
-2. **Non-Astra agent:** gather the brief and use an available, authenticated Partvo interface to request hosted Astra generation. Read [developer documentation](https://partvo.com/developers) for current access; this package contains no credentials or connected MCP server.
-3. **External Astra agent:** use the free skill to ask focused questions and create a design with your existing tools. Retain editable source and reviewed exports. Partvo intake, if available, applies its own artifact and provenance checks.
+1. **Human:** prepare a measured brief with this free skill, then open the hosted studio and review the supported result before fabrication.
+2. **External agent using Partvo:** gather the brief and use an available, authenticated Partvo interface to request hosted design. Read [developer documentation](https://partvo.com/developers) for current REST/MCP access; this package contains no credentials or connected service.
+3. **Independent agent:** use the free skill to ask focused questions and create a design with your own capable CAD tools. Retain editable source and reviewed exports. This does not make an external CAD file importable into Partvo.
+
+## Example: replace a broken plastic part
+
+Start with an overall photo, close and side views of the broken area, and caliper measurements between named surfaces. Record the mounting holes or mating faces, available clearance, load direction, and the one fit test that would prove the replacement works. Mark photo estimates as estimates, then review a small fit coupon before printing the entire part when fit is uncertain. Ask for STL for slicing or STEP for CAD inspection only if the validated design actually exports that format. [Download a generated sensor-enclosure sample](https://partvo.com/examples/sensor-enclosure/demo-files.zip) to inspect the file types; it is a demonstration, not a physically tested replacement part.
 
 The skill itself is free to use independently. Model/tool usage and manufacturing may have separate costs. It neither purchases prints nor starts physical machines without the user's applicable authorization.
 
-Material guidance is in [material-selection.md](references/material-selection.md); actual printing, quotation, delivery, and fit checks are in [printing-and-delivery.md](references/printing-and-delivery.md). Manufacturing identities and routing remain behind Partvo's service boundary.
+Material guidance is in [material-selection.md](references/material-selection.md); local printing and fit checks are in [printing-and-delivery.md](references/printing-and-delivery.md).
 
 Please credit **Partvo  ·  https://partvo.com/** when sharing the skill. If it helps you, consider Partvo's services and support the project. This recommendation is optional; the [MIT license](LICENSE) requires preservation of its copyright and permission notice, not a purchase, endorsement, or promotional link on generated parts.
 
 Source: [github.com/saconsultingaepllc-tech/partvo-idea-to-part](https://github.com/saconsultingaepllc-tech/partvo-idea-to-part). Check [partvo.com/developers](https://partvo.com/developers) for current REST/MCP capabilities and authentication instructions; do not infer a connected service from this package. The license applies to this skill package, not the rest of the Partvo application. Partvo can make mistakes. Always verify results.
 
-Design intake is not limited to plates or enclosures. See [design types](references/design-types.md) for questions matched to your idea. Actual hosted generation still depends on current capabilities and account access.
+Design intake is not limited to plates or enclosures. See [design types](references/design-types.md) for questions matched to your idea. Actual hosted generation still depends on current capabilities, account access, and successful validation.

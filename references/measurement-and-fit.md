@@ -8,4 +8,4 @@ Prioritize mating diameters, center spacing, insertion depth, wall thickness, fa
 
 Separate a bearing surface from its connector: reinforcing the root must preserve axis location, engagement length, free ends, and clearance. Assess movement against measured mating geometry or a known clearance envelope. Otherwise mark full travel as awaiting a physical test.
 
-Choose fit-test coupons that preserve the constraints being tested. Record revision/hash, absolute parameter values, material/process, orientation, and acceptance criteria. Give variants durable labels or a documented layout recoverable from photos. Diagnose insertion, motion, strength, and print-quality failures separately before requesting a revision from Astra.
+Choose fit-test coupons that preserve the constraints being tested. Record revision/hash, absolute parameter values, material/process, orientation, and acceptance criteria. Give variants durable labels or a documented layout recoverable from photos. Diagnose insertion, motion, strength, and print-quality failures separately before requesting a revision through the chosen CAD workflow.

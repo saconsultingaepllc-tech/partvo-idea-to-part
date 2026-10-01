@@ -31,7 +31,7 @@ Filament selection and machine compatibility should be checked against current o
 
 For each real candidate, obtain a current technical datasheet and the offered process specification. Record source/date, exact grade or stable Partvo material ID, relevant test method and conditions, print orientation, conditioning, and required finishing. Do not transfer an injection-molded value to a printed part, compare incompatible test conditions as equivalent, or use nozzle temperature/melting point as an allowable service temperature. Datasheet values are not guaranteed performance for this geometry.
 
-For local printing, check the actual nozzle, bed/chamber capability, drying needs, material profile, and exposure controls against machine/material guidance. For managed printing, use the specifications exposed by Partvo and request clarification for missing properties; do not expose manufacturing routing or seek internal provider credentials.
+For local printing, check the actual nozzle, bed/chamber capability, drying needs, material profile, and exposure controls against machine/material guidance. Partvo-managed printing is not live; do not infer an available material or print quote from a CAD export.
 
 ## Turn the decision into a design and print specification
 
@@ -43,8 +43,8 @@ Record in `design-spec.md`:
 - Rejected alternative and the requirement it misses, if one was compared.
 - Datasheet/process references, unresolved limitations, and the coupon or physical test that will validate fit/function.
 
-Have Astra adjust features, clearances, wall thickness, fastening, and support strategy for the selected process. Do not treat infill percentage as a standalone strength guarantee. A fit test in a different material or orientation is preliminary; validate the final combination where shrinkage, flexibility, or load response affects success.
+Adjust features, clearances, wall thickness, fastening, and support strategy through the chosen CAD workflow for the selected process. Do not treat infill percentage as a standalone strength guarantee. A fit test in a different material or orientation is preliminary; validate the final combination where shrinkage, flexibility, or load response affects success.
 
 Food contact, medical use, drinking-water contact, flame ratings, and similar claims require evidence for the exact material, manufacturing/finishing process, and intended application. Do not infer certification from a generic family name, “food-safe filament,” or a marketing statement. Identify the missing evidence and obtain appropriate review before representing the part as suitable.
 
-A material or process substitution changes the approved specification. Explain the expected effect, update geometry if needed through Astra, validate again, and renew the affected approval before fabrication. If requirements cannot be met by available validated options, say so and preserve the brief without offering a knowingly unsuitable print.
+A material or process substitution changes the approved specification. Explain the expected effect, update geometry if needed through the chosen CAD workflow, validate again, and renew the affected approval before fabrication. If requirements cannot be met by available validated options, say so and preserve the brief without offering a knowingly unsuitable print.
